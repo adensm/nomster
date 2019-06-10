@@ -1,1 +1,15 @@
 @import "bootstrap";
+
+.booyah-box {
+    background-color: rgba(244, 220, 193, 0.44);
+    border: 5px solid rgba(246, 178, 99, 0.44);
+    padding: 75px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
