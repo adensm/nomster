@@ -1,7 +1,7 @@
 @import "bootstrap";
 
 .booyah-box {
-    background-color: rgba(244, 220, 193, 0.44);
+    background-color: rgba(244, 181, 117, 0.11);
     border: 5px solid rgba(246, 178, 99, 0.44);
     padding: 75px;
     margin-top: 10px;
@@ -12,4 +12,15 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+body{
+  background: image_url('food.jpg');
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.navbar{
+  background: image_url('gradient.jpg');
+  box-shadow: 0px 1px 3px #2a2a2a;
 }
