@@ -1,6 +1,7 @@
 @import "bootstrap";
 $gold:#e0ad10;
 $navfont: 'kaushan_scriptregular', sans-serif;
+$hovercolor: #cca385;
 
 .booyah-box {
     background-color: rgba(244, 181, 117, 0.11);
@@ -31,16 +32,14 @@ body{
   font-family: $navfont;
   font-size: 40px;
 
-  &:hover {color: #cca385;}
+  &:hover {color: $hovercolor;}
 }
 .navbar-inverse .navbar-nav .nav-link{
   color: $gold;
   font-family: $navfont;
-  font-size: 20px;
-  position: absolute;
-  right: 10px;
+  font-size: 15px;
 
-  &:hover {color: #cca385;}
+  &:hover {color: $hovercolor;}
 }
 
 .pagination {
