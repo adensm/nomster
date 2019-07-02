@@ -1,4 +1,6 @@
 @import "bootstrap";
+$gold:#e0ad10;
+$navfont: 'kaushan_scriptregular', sans-serif;
 
 .booyah-box {
     background-color: rgba(244, 181, 117, 0.11);
@@ -17,18 +19,28 @@ h1, h2, h3, h4, h5, h6 {
 body{
   background: image_url('food.jpg');
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .navbar{
   background: image_url('gradient.jpg');
-  box-shadow: 0px 1px 3px #2a2a2a;
+  box-shadow: 0px 1px 3px #ededed;
 }
 
 .navbar-inverse .navbar-brand{
-  color: #eee1d0;
-  font-family: 'kaushan_scriptregular', sans-serif;
-  font-size: 30px;
+  color: $gold;
+  font-family: $navfont;
+  font-size: 40px;
+
+  &:hover {color: #cca385;}
+}
+.navbar-inverse .navbar-nav .nav-link{
+  color: $gold;
+  font-family: $navfont;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+
+  &:hover {color: #cca385;}
 }
 
 .pagination {
