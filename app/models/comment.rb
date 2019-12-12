@@ -2,6 +2,8 @@ class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :place
 
+  validates :message, presence: true
+  validates :rating, presence: true
 
   RATINGS = {
     'one star': '1_star',
@@ -14,4 +16,6 @@ class Comment < ApplicationRecord
   def humanized_rating
     RATINGS.invert[self.rating]
   end
+
+
 end
